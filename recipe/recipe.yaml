@@ -30,12 +30,6 @@ tests:
       imports:
         - convcolors
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - pip
-        - python ${{ python_min }}.*
-    script:
-      - pip check
 
 about:
   summary: Convert colors between different color spaces.
